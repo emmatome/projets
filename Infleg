@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta charset="utf-8">
+	<title></title>
+
+</head>
+
+<body style="background-color:#1c2b4f;">
+     </body>
+
+<body rel="body" type="text/css" href="style2.css">
+	<body rel="body" type="text/css" href="style3.css">
+</body>
+
+	<?php
+echo include'header.php' ;
+	?> 
+
+<font color="white">
+<p>
+La protection des données est au cœur de webcourses alors que nous intensifions nos efforts pour devenir le plus grand écosystème de matériel et de logiciels de jeu au monde. Avec une présence mondiale, nous travaillons continuellement pour observer la conformité dans le monde entier et déployer les meilleures pratiques en matière de protection des données et de défense de la confidentialité des utilisateurs.<br />
+<br />
+Dans le cadre de nos activités quotidiennes, nous nous efforçons de nous assurer que les données que nous recevons sont :<br />
+Traitées de manière licite, loyale et transparente
+Collectées uniquement à des fins déterminées, explicites et légitimes<br />
+Adéquat, pertinent et limité au nécessaire - Exact et tenu à jour<br />
+Détenu uniquement pendant le temps absolu nécessaire et non plus<br />
+Traitées de manière à garantir une sécurité appropriée des données personnelles. Nous vous encourageons à consulter nos conditions mises à jour ici.<br />
+<br />
+NOTRE POLITIQUE DE CONFIDENTIALITÉ<br />
+Cela explique les directives de webcourses sur la façon dont il collecte, gère et traite les données. Elle régit les finalités et les motifs légitimes pour lesquels webcourses traite les données.<br />
+<br />
+NOS CONDITIONS D'UTILISATION<br />
+Ceci explique les conditions générales applicables à tous les services webcourses. Il contient des détails sur notre traitement des données et demande le consentement si nécessaire.<br />
+<br />
+QU'EST-CE QUE LE RGPD ?<br />
+Le règlement général sur la protection des données (RGPD), qui s'appliquera à partir du 25 mai 2018, crée des règles de protection des données cohérentes dans toute l'Europe. Elle s'applique aux entreprises basées dans l'Union européenne et aux entreprises mondiales qui traitent des données personnelles concernant des individus dans l'UE.<br />
+<br />
+En résumé, le RGPD donne aux consommateurs des droits d'accès, de rectification, de prise de décision automatisée et de profilage, ainsi que des droits d'effacement, de restriction de traitement, de portabilité des données et d'opposition.<br />
+<br />
+Nous saluons la mise en œuvre du RGPD car il s'agit d'une étape importante pour permettre et renforcer les droits individuels à la vie privée.<br />
+<br />
+Y A-T-IL DES CHANGEMENTS SPÉCIFIQUES QUI VONT M'AFFECTER EN TANT QU'UTILISATEUR DES SERVICES webcourses ?<br />
+Oui. Dans un effort consciencieux pour informer nos utilisateurs sur la manière dont nous collectons et utilisons vos informations personnelles, ainsi que sur la manière dont vous contrôlez la manière dont nous le faisons, nous mettons à jour nos conditions d'utilisation ainsi que notre politique de confidentialité.<br />
+<br />
+À compter du 25 mai 2018, toutes les versions de nos logiciels et services qui ne respectent pas les réglementations GDPR seront supprimées et ne seront plus utilisables ou valides. Cela signifie que vous ne pourrez peut-être pas vous connecter aux anciennes versions de logiciels et de services tels que webcourses Synapse 2.0 (avant la mise à jour conforme au 25 mai) ou webcourses Cortex sur mobile.<br />
+<br />
+Tous les utilisateurs sont fortement encouragés à mettre à jour les dernières versions de nos logiciels et services pour éviter toute interruption de vos expériences webcourses. Tu peux le faire ici:<br />
+TÉLÉCHARGEMENTS webcourses<br />
+<br />
+Alors que nous cherchons à renforcer davantage la confidentialité des données, nous pouvons demander votre consentement pour recevoir nos newsletters marketing. Ces demandes de consentement peuvent être trouvées dans nos conditions générales mises à jour ; dans nos prochaines communications et dans la procédure d'installation de nos nouvelles mises à jour logicielles.<br />
+<br />
+De plus, vous pouvez choisir de modifier les types de communications que vous recevez de notre part en mettant à jour vos préférences ici :<br />
+PARAMÈTRES DU PROFIL D'IDENTIFICATION webcourses<br />
+</p>
+</font>
+	<?php
+		echo include'footer.php' ;
+	?>
+</body>
+
+</html>
