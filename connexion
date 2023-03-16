@@ -1,0 +1,34 @@
+<p> Bonjour <?php echo htmlspecialchars($_POST[pseudo]); ?> </ >
+
+<p> Bienvenue sur le site webcourse </p>
+<p> Pour revenir à la page d'accueil, <a href="index.php"><p>cliquez ici </a> </p>
+<p> Partie pour se connecter à la base webcourse </p>
+<?php
+
+try
+{
+	//connexion à la base de données
+	$bdd=newpdo('mysql:host=localhost;dbname=webcourses;charset=utf8','root','root');
+}
+
+catch(Exception $e)
+{
+	die('Erreur de connexion:' $e->getMessage());
+
+}
+
+$reponse=$bdd->query('select * from championnat');
+
+while($donnees=$reponse->fetch())
+ }
+ <?
+
+ <p> Nom du championnat <?php echo $donnees['ch_datedeb'] ' ' $donnees['ch_datefin']; ?> <br/>
+ 	Lieu du championnat <?php echo $donnees['ch_lieu']; ?> <br/>
+ </p>
+
+ <?php
+  {
+  	$reponse->closeCursor();
+  }
+  ?>
