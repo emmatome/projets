@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+		<meta charset="utf- 8">
+		<meta http_equiv="X_UA-Compatible" content="IE=edge">
+		<title> Nouveau membre </title>
+</head>
+<body>
+	<!--Formulaire d'inscription / Connexion -->
+	<form action ="#" method="POST">
+		<input type="text" name="nom" placeholder="Votre nom">
+		<input type="text" name="prenom" placeholder="Votre prénom">
+		<input type="email" name="email" placeholder="Votre adresse e-mail">
+		<input type="datenais" name="datenais" placeholder="Votre date de naissance">
+		<input type="nationalite" name="nationalite" placeholder="Votre nationalite">		
+		<input type="password" name="mdp" placeholder="Votre mot de passe">
+		<input type="numtel" name="numtel" placeholder="Votre numéro de téléphone">
+	
+		<select name="sexe">
+			<option value="h"> Masculin </option>
+			<option value="f"> Feminin</option>
+		</select>
+		<input type="submit" name="inscription" value="M'inscrire">
+	</form>
+	<hr>
+	<form action ="#" method="POST">
+	
+		<input type="email" name="email" placeholder="Votre adresse e-mail">
+		<input type="password" name="mdp" placeholder="Votre mot de passe">
+		<input type="submit" name="login" value="Se connecter">
+		</select>
+		<input type="submit" name="inscription" value="M'inscrire">
+	</form>
+</body>
+</html>
+
+<?php 
+//Formulaire d'inscription
+if (isset($_POST['inscription'])){
+	$nom = $_POST['co_nom'];
+	$prenom = $_POST['co_prenom'];
+	$email = $_POST['co_email'];
+	$adresse = $_POST['co_adresse'];
+	$datenais = $_POST['co_datenais'];
+	$nationalite = $_POST['co_nationalite'];
+	$mdp = $_POST['co_mdp2'];
+	$genre = $_POST['co_sexe'];
+	$numtel = $_POST['co_numtel'];
+if(!empty ($nom)) AND !empty($prenom) AND !empty($email) AND !empty($adresse) AND !empty($datenais) AND !empty($nationalite) AND !empty($mdp) AND !empty($genre) AND !empty($numtel){
+	
+}
+}
+?>
