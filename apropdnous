@@ -1,0 +1,156 @@
+<html>
+     <head>
+         <link rel="stylesheet" href="style.css">
+
+          <script>
+        alert('Cette Page affiche nos Informations')
+      </script>
+
+
+      
+    <body style="background-color:white;">
+     </body>
+
+    <center> <img border="0" src="webc.png"> </center>
+
+     </head>
+
+<?php
+	echo include'header.php';
+?>
+
+         
+         
+
+
+          <title>A propos de nous</title>
+
+<br>
+   <br>
+   <br>
+   <font color="black">
+
+   <h2 class="Titre"><center>Chez Webcourses, c'est toute une histoire !</h2></center>
+   <br>
+
+<p> La RUNNING HIGHTECH est une structure indépendante, financée par des donateurs, le Conseil Régional de Paris dont l'administration est déléguée au Comité Régional Olympique et Sportif de Paris (CROSP).</p>
+<br>
+
+<p> Comme d’autres structures sportives, la RUNNING HIGHTECH a accueilli récemment un nouveau membre : l’association Web courses.</p> 
+<br>
+<p>Cette dernière souhaite pouvoir profiter de l’infrastructure et des services offerts par cette dernière.</p>
+<br>
+<p>Afin de pouvoir gérer au mieux les différents championnats, manifestations, épreuves, coureurs, clubs sportifs, les différentes participations des sportifs aux différents tournois annuels, l’association Web courses désire mettre en place une base de données regroupant tous ces aspects afin de répondre à la demande de ses membres.</p>
+<br> 
+<p>Elle souhaite aussi pouvoir la faire évoluer, l’optimiser, la sécuriser et s’en servir en mode client serveur lorsque les phases de tests auront été validées par les membres de la direction du SI.</p>
+<br>
+<br>
+<h2 class="Titre"><center> L'assocation WEBCOURSES</h2></center>
+   <br>
+
+
+<p>Elle fédère des évènements principalement tournés vers la course : vélo, natation, course à pied …. </p>
+<p>Elle gère environ un million de membres dont dix mille professionnels.</p>
+<br>
+<p>Elle accueille des compétiteurs/compétitrices amateurs comme des professionnels, de France ou d’Europe. Ces derniers ont le droit de s’engager sur une course à partir de 10 ans.</p>
+<p>L’association est située au 45 rue des mathurins à Paris dans le 8ème.</p>
+<br>
+<br>
+<br>
+ <h2 class="Titre"><center>L'équipe de l'Association Web Courses</h2></center>
+   <br>
+
+
+<p> Webcourse est une association composés de volontaires. </p>
+<p>Elle emploie 5 salariés à temps plein : </p>
+<p> • Une personne responsable de l’évènementiel.<p>
+  <p><u><strong> Informations:</u> </strong> 01-45-45-45-13  </p> 
+  <p><u><strong> Adresse mail: </u></strong> évènement@webcourses.fr  </p>
+   <br>
+   <br>
+  
+
+
+<p> • Une commerciale responsable du lien avec les clubs sportifs </p>
+<p> <u> <strong>Information:</u> </strong> 01-45-45-45-14 <p>
+<P> <u>Adresse mail:</u> commercial@webcourses.fr </u> </p>
+ <br>
+ <br>
+<p> • Une personne responsable de la gestion des inscriptions </p>
+<p><u><strong>Information:</strong> </u> 01-45-45-45-15 <p>
+<p><u> <strong> Adresse mail: </strong></u> inscription@webcourses.fr </p>
+<br>
+<br>
+<p> • Le gestionnaire de la base de données webcourses est M.adminDB </p>
+<p><u><strong>Informations:</strong></u> 01-45-45-45-16 <p>
+<p><u><strong>Adresse mail:</strong> </u> adminDB@webcourses.fr </p>
+<br>
+<br>
+<p> • Les gestionnaire de la base de données Javastocks est Mr.Stocker. Il est en charge de la réservation et de l'approvisionnement des produits textiles, boissons et denrées sèches lors des différentes courses.</p>
+<p><u><strong> Informations:  </strong></u> 01-45-45-45-18 <p>
+<p><u> <strong> Adresse mail:</strong> </u> stocker@webcourses.fr </p>
+<br>
+
+<h2 class="Titre"><center>L'équipe de RUNNING HIGHTECH</h2></center>
+   <br>
+  <p>La société, basée à Levallois-Perret, au 12 Boulevard de Levallois Prol.</p>
+  <br>
+  <p> Elle dispose de locaux disposés sur deux batiments de 3000m² de 5 étages. </p>
+  <p> RUNNING HIGHTECH est découpé en plusieurs services : RH, comptabilité, informatique, commercial et relation clients et composé d’une cinquantaine de salariés, dont 10 commerciaux</p>
+
+<p>Le service informatique est composé de 10 personnes, dirigé par Mme Chaussetoi Socky : Responsable des traitements.</p> 
+<p><strong> Informations:01-45-56-12-12</strong> </p>
+<p><u><strong> Adresse mail :</strong> </u> chaussetoi.runninghightech@gmail.com </p> 
+<p><u><strong> MDP :</strong> </u> Running@Hightech </p>
+<br>
+
+<p>Elle est secondée par Mme Loyal, la DPO du service, en lien avec la RH et le comité de direction. C’est aussi la personne dédiée à l’exercice des droits des personnes concernées.<p> 
+<p><u><strong> Information: </strong></u> 01-45-56-12-13 </p> 
+<p><u><strong> Adresse mail: </strong></u> loyal.runninghightech@gmail.com.</p>
+<br>
+
+<p>Les autres collaborateurs sont 5 techniciens de maintenance et 3 administrateurs réseaux confirmés.</p>
+<br>
+<br>
+
+
+
+<h2 class="Titre"><center>Relation client Web courses / RUNNING HIGHTECH</h2></center>
+<br>
+
+<p>Web courses et RUNNING HIGHTECH ont signé un contrat de sous-traitance afin de pouvoir héberger la base de données Web courses, mais aussi tous les traitements relatifs à la bonne marche de l’association. Elle s’assure ainsi d’une sécurité renforcée et de l’appui d’un professionnel informatique.</p>
+<br>
+
+<p>L’association Web Courses s’inscrit dans le contexte RUNNING HIGHTECH, qui  a pour mission de fournir des espaces et des services à différents clients et à d’autres structures hébergées.</p>
+<br>
+
+<br>
+<p>Afin de répondre aux attentes de ses clients, la RUNNING HIGHTECH veut mettre en place une infrastructure basée sur des serveurs Windows 2016, comprenant :</p>
+    <p>• La gestion des comptes et des droits utilisateurs ainsi que le déploiement de stratégies de groupe</p>
+    <p>• La gestion des sites </p> 
+    <p>• La réplication </p>
+    <P>• Le service de gestion des noms de domaine </p>
+    <p>• La distribution des adresses dynamiques</p>
+   <p> • Les contrôles des accès dynamiques </p>
+   <p> • La gestion des services de gestion des droits</p>
+    <p>• La mise en place d’un espace sécurisé et en particulier un serveur mandataire </p>
+    <p>• Gérer la répartition de charge et la répartition réseau</p>
+    <p>• Gérer la haute disponibilité </p>
+    <br>
+    <br>
+<p>Elle se dote également d’un serveur de supervision de type Nagios, d’un serveur Ubuntu sur lequel elle installera DNS et DHCP. </p>
+<br>
+
+
+
+
+
+    
+
+
+    <p class="Texte">
+
+  <?php
+     echo include 'footer.php' ;
+   ?>
+ 
