@@ -1,0 +1,163 @@
+
+    <?php
+    echo include 'header.php';
+    ?>
+<br>
+<br>
+<br>
+<br>
+
+<html>
+<meta charset=UTF-8>
+
+     <head>
+     	<link rel="stylesheet" href="C:\MAMP\htdocs\webcourses\style css.css">
+         
+<center><font size="5"><p class="Texte"><strong> Veuillez renseignez vos informations concernant votre club. </strong> </p></font></center>
+        <title>Club</title>
+<br>
+<br>
+
+    </head>
+    <a href="en_tete.php">
+
+
+
+ <body background="C:\MAMP\htdocs\webcourses\background.jpg"alt=""/>
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url("foret.jpg") center;
+        background-size: cover;
+        min-height: 600px;
+        font-family: "Helvetica Neue", sans-serif;
+      }
+      nav {
+        text-align: center;
+      }
+      .menu {
+        display: inline-block;
+      }
+      .menu > li {
+        float: left;
+        color: #e298e1;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        background: rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+        font-size: 17px;
+      }
+      .sub-menu {
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+      }
+      .sub-menu li {
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 8px 0;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+      }
+      .sub-menu li:last-child {
+        border-bottom: 0;
+      }
+      .sub-menu li:hover {
+        background: black;
+      }
+      .menu > li:hover .sub-menu li {
+        transform: scale(1);
+      }
+      .menu > li:hover .sub-menu {
+        transform: scale(1);
+      }
+    </style>
+
+  </head>
+
+   <center><input type="numtel" name="numtel" placeholder="Votre numéro de téléphone"></center>
+<br>
+<br>
+    <center><input type="email" name="email" placeholder="Votre adresse email"></center>
+ <br>
+ <br>
+
+  <body>
+    <nav>
+      <ul class="menu">
+        <li>
+         Nom
+          <ul class="sub-menu">
+            <li><a href="club.php"> La foulé Bordelaise</li></a>
+            <li><a href="club.php">UA du Medoc</li></a>
+            <li><a href="club.php">La route foch</li></a>
+            <li><a href="club.php">Le Mont lahos</li></a>
+          </ul>
+        </li>
+        <li>
+          Adresse
+          <ul class="sub-menu">
+            <li><a href="club.php">25 rue des étangs</li></a>
+            <li><a href="club.php">Rue de la Liberté</li></a>
+            <li><a href="club.php">Avenue du G. Leclerc</li></a>
+            <li><a href="club.php">3 rue moufftard </li></a>
+          </ul>
+        </li>
+        <li>
+         Ville
+          <ul class="sub-menu">
+            <li><a href="club.php">Bordeau</li></a>
+            <li><a href="club.php">Paris</li></a>
+            <li><a href="club.php">Toujouse</li></a>
+            <li><a href="club.php">Lille</li> </a>
+         </ul>    
+        </li>
+    
+    	<li>
+        Code Postale
+          <ul class="sub-menu">
+            <li><a href="club.php">33450</li></a>
+            <li><a href="club.php">33140</li></a>
+            <li><a href="club.php">32141</li></a>
+            <li><a href="club.php">33513</li></a>
+          </ul>
+        </li>
+    </nav>
+
+<br>
+<br>
+<br>
+<br>
+   
+ 
+ <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+     <?php
+     echo include 'footer.php' ;
+     ?>
+
+ </body>
+ </html>
