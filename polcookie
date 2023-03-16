@@ -1,0 +1,63 @@
+<font color="white">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body style="background-color:#1c2b4f;">
+
+	 <script>
+      	alert('Cette Page affiche la Politique de Cookies')
+      </script>
+     </body>
+
+<link rel="stylesheet" href="style2.css">
+
+    <?php
+echo include'header.php' ;
+    ?> 
+
+
+<font color="white">
+
+<p><h2>Consentement</h2><br />
+<br />
+En utilisant ce site Web, vous consentez à l'utilisation de cookies conformément à la présente Politique relative aux cookies. Vous aurez vu une fenêtre contextuelle à cet effet lors de votre première visite sur ce site ; bien qu'il n'apparaisse généralement pas lors de visites ultérieures, vous pouvez retirer votre consentement à tout moment en suivant les instructions ci-dessous.<br />
+<br />
+<h2>Désactivation des cookies</h2><br />
+<br />
+Si vous n'acceptez pas l'utilisation de ces cookies, veuillez les désactiver en suivant les instructions de votre navigateur décrites ici. Veuillez noter que certains services peuvent ne pas fonctionner si les cookies sont désactivés.<br />
+<br />
+Lorsque l'organisation qui définit le cookie fournit un outil de désactivation automatisé pour son ou ses cookies, nous mentionnons le nom de cette organisation et la catégorie de cookies qu'elle définit avec un lien vers son outil de désactivation automatisé. Dans tous les autres cas, nous répertorions les noms des cookies eux-mêmes et leur source à la date de cette politique de cookies afin que vous puissiez facilement les identifier et les désactiver si vous le souhaitez via les commandes de votre navigateur.<br />
+<br />
+Certains navigateurs vous permettent de signaler que vous ne souhaitez pas que votre activité de navigation sur Internet soit suivie. La désactivation du suivi peut interférer avec certaines utilisations du site Web et des services fournis sur le site Web.<br />
+<br />
+Après votre première visite sur le site Web, nous pouvons modifier les cookies que nous utilisons. Cette politique de cookies vous permettra toujours de savoir qui place des cookies, dans quel but les cookies sont placés, et vous donnera les moyens de les désactiver, vous devriez donc la vérifier de temps en temps.<br />
+<br />
+<h2>Que sont les cookies ?</h2><br />
+<br />
+Les cookies sont des fichiers texte contenant de petites quantités d'informations qui sont téléchargées sur votre appareil lorsque vous visitez un site Web. Les cookies sont ensuite renvoyés au domaine Web d'origine lors de vos visites ultérieures sur ce domaine. La plupart des pages Web contiennent des éléments provenant de plusieurs domaines Web. Ainsi, lorsque vous visitez le site Web, votre navigateur peut recevoir des cookies de plusieurs sources.<br />
+<br />
+Les cookies sont utiles car ils permettent à un site Web de reconnaître l'appareil d'un utilisateur. Les cookies vous permettent de naviguer efficacement entre les pages, de mémoriser les préférences et d'améliorer généralement l'expérience utilisateur. Ils peuvent également être utilisés pour adapter la publicité à vos intérêts en suivant votre navigation sur les sites Web.<br />
+<br />
+Les cookies de session sont supprimés automatiquement lorsque vous fermez votre navigateur et les cookies persistants restent sur votre appareil après la fermeture du navigateur (par exemple pour mémoriser vos préférences d'utilisateur lorsque vous revenez sur le site).<br />
+<br />
+<h2>Quels types de cookies Webcourses utilise-t-il ?</h2><br />
+<br />
+Nous décrivons ci-dessous les catégories de cookies que Webcourses, ses sociétés affiliées et ses sous-traitants utilisent.<br />
+<br />
+<h2>Cookies strictement nécessaires</h2><br />
+<br />
+Ces cookies sont essentiels pour vous permettre de vous déplacer sur le site Web et d'utiliser ses fonctionnalités. Sans ces cookies, les services que vous avez demandés (comme la navigation entre les pages) ne peuvent pas être fournis.
+</p>
+</font>
+    <?php
+        echo include'footer.php' ;
+    ?>
+</body>
+
+</html>
