@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Creating Search Bar using HTML
+        CSS and Javascript
+    </title>
+
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_webcourses()" type="text"
+        name="rechercher" placeholder="Vous chercher, je trouve..">
+
+    <!-- ordered list -->
+    <ol id='list'>
+        <li class="courses">Courses</li>
+        <li class="courses">Club</li>
+        <li class="courses">Accueil</li>
+        <li class="courses">Evènement</li>
+      
+
+    <!-- linking javascript -->
+    <script src="./webcourses.js"></script>
+</body>
+
+</html>
