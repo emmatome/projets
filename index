@@ -1,0 +1,64 @@
+
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>WebCourses</title>
+
+    <link rel="stylesheet" href="style.css">
+
+     <body style="background-color:#FFFFFF;">
+     </body>
+
+    
+
+    <center> <img border="0" src="webc.png"> </center>
+
+    <body>
+
+    
+
+    <!-- linking javascript -->
+    <script src="./webr.js"></script>
+</body>
+
+   
+
+</head>
+<link rel="stylesheet" href="style2.css">
+
+
+
+<body>
+
+
+    <?php
+    echo include 'header.php';
+    ?>
+
+    <font color="black">
+    
+
+      <div class="main-header" role="banner">
+  <img src="head.png" alt="Banner Image" alt height=542 px/>
+  <br>
+  <br>
+  <img src="banderoll.png" alt="Banner Image"/>
+  <br>
+  <br>
+  <img src="dépasser.png" alt="Banner Image"/>
+</div>
+
+
+
+     <br>
+
+ </font>
+     <?php
+     echo include 'footer.php' ;
+     ?>
+
+
+      
+
+</body>
+</html>
