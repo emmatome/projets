@@ -1,0 +1,62 @@
+<?php
+    echo include 'header.php';
+    ?>
+
+
+<!DOCTYPE html>
+<html>
+
+     <head>
+<body style="background-color:#1c2b4f;">
+	<form method="post" action="index.php">
+
+		<br>
+		<br>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendrier Evenementiel</title>
+    <style>
+      .button {
+        background-color: #778ed1;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+
+<center><font size="6"><p class="Texte"><strong> Veuillez choisir la date de votre course. </strong> </p></font></center>
+
+
+  </head>
+  <body>
+
+    <center><br>
+   <a href="calendrier_évènementiel.php" class="button">Retour</a><
+    <a href="calendrier_évènementiel1.php" class="button">Date</a>
+    <a href="calendrier_évènementiel2.php" class="button">Suivant</a>
+    <br></center>
+  
+  <center><iframe name="InlineFrame1" id="InlineFrame1" style="width:860px;height:515px;" src="https://www.mathieuweb.fr/calendrier/calendrier-des-semaines.php?nb_mois=12&nb_mois_ligne=5&mois=10&an=0&langue=fr&texte_color=9498D4&week_color=E6E1FD&week_end_color=B6ABFF&police_color=042336&sel=true" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+  </body></center>
+</html>
+
+
+
+
+
+		
+
+     <?php
+     echo include 'footer.php' ;
+     ?>
+
+ </body>
+ </html>
