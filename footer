@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<meta charset=UTF-8>
+ <head>
+ 	<link rel="stylesheet" href="maincss.css">
+ 	<body>
+ 		<header><nav>
+    <ul>
+        <li><a href = "Infleg.php">Information Légale</a></li>
+
+            <!--Membre-->
+        <li><a href = "Polcookie.php">Politique de Cookies</a>
+        
+        </li>
+
+           
+        
+        
+        
+        </li>
+
+            <!--Club-->
+        <li ><a href = "politiqueConf.php">Politique de Confidentialité </a>
+        
+        </li>
+
+</ul>
+
+    </nav></header>
+  </body>
+
+
+
