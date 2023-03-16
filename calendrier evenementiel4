@@ -1,0 +1,87 @@
+<?php
+    echo include 'header.php';
+    ?>
+
+
+<!DOCTYPE html>
+<html>
+
+     <head>
+<body style="background-color:#1c2b4f;">
+	<form method="post" action="index.php">
+
+		<br>
+		<br>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendrier Evenementiel</title>
+    <style>
+      .button {
+        background-color: #778ed1;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+
+<center><font size="5"><p class="Texte"><strong> Cette page indique les différentes distances. Veuillez choisir votre distance : </strong> </p></font></center>
+
+<br>
+  </head>
+  <body>
+   <center> 
+    <a href="calendrier_évènementiel3.php" class="button">Retour</a>
+    <a href="calendrier_évènementiel4.php" class="button">Distance</a>
+   
+   </center>
+   <br>
+   <br>
+
+<center>
+  <a href="calendrier_évènementiel5.php" class="button">10 à 40 km</a>
+  <a href="calendrier_évènementiel5.php" class="button">10 à 50 km</a>
+   <a href="calendrier_évènementiel5.php" class="button">5 à 80 km</a>
+    <a href="calendrier_évènementiel5.php" class="button">12 à 70 km</a>
+    <a href="calendrier_évènementiel5.php" class="button">20 à 50 km</a>
+  </center>
+
+  </body>
+</html>
+
+
+
+<style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+      }
+      body {
+        background: url("https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") center;
+        background-size: cover;
+        min-height: 600px;
+        font-family: "Helvetica Neue", sans-serif;
+      }
+
+<br>
+<br>
+<br>
+
+
+
+
+     <?php
+     echo include 'footer.php' ;
+     ?>
+
+ </body>
+ </html>
