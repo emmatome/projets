@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <?php
+echo include('index.php') ;
+    ?> 
+</body>
+
+</html>
+    
+
+
+
+
+
+
+
