@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<meta charset=UTF-8>
+ <head>
+ 	<link rel="stylesheet" href="style.css">
+ 	<body>
+ 		<header><nav>
+    <ul>
+
+       
+        <img border="5" src="logo22.png">
+         <img border="5" src="9122.png">
+        <li><a href = "index.php">Accueil</a></li>
+
+            <!--Membre-->
+        <li class="menu-deroulant"><a href = "#">Membre</a>
+        <ul class="sous-menu">
+        <li><a href = "inscription.php">Nouveau Membre</a></li>
+        
+        </ul>
+
+
+            <!--Course-->
+        <li class="menu-deroulant"><a href = "#">Course</a>
+        <ul class="sous-menu">
+        <li><a href = "visualiser_courses_classement.php">Classement Courses</a></li>
+        <li><a href = "calendrier_évènementiel.php">Calendrier Evenementiel</a></li>
+       
+
+        </ul>
+        </li>
+
+
+
+            <!--Club-->
+        <li class="menu-deroulant"><a href = "club.php">Club</a>
+       
+    
+        </li>
+
+         <!--Info-->
+        <li ><a href = "aprodnous.php">A propos de nous</a>
+        </li>
+
+</ul>
+
+    </nav></header>
+  </body>
+
+
+
