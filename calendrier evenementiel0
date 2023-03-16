@@ -1,0 +1,113 @@
+
+<?php
+    echo include 'header.php';
+    ?>
+
+
+<!DOCTYPE html>
+<html>
+
+     <head>
+<body style="background-color:#1c2b4f;">
+	<form method="post" action="index.php">
+
+		<br>
+		<br>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendrier Evenementiel</title>
+    
+    <style>
+      .button {
+        background-color: #778ed1;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+
+<center><font size="5"><p class="Texte"><strong> Cette page indique les futurs évenement dans laquel vous pourrez vous inscrire. Vous pourrez choisir selon votre disponibilité et votre parcours parmis les catégorie suivante : </strong> </p></font></center>
+
+
+  </head>
+  <body>
+   <center> <a href="calendrier_évènementiel1.php" class="button">Date</a>
+    <a href="calendrier_évènementiel2.php" class="button">Lieu</a>
+    <a href="calendrier_évènementiel3.php" class="button">Parcours</a>
+    <a href="calendrier_évènementiel4.php" class="button">Distance</a>
+    <a href="calendrier_évènementiel5.php" class="button">Montant de l'inscription</a></center>
+
+  </body>
+</html>
+
+<br>
+<br>
+<br>
+
+
+<center><font size="4"><p class="Texte"><strong> Vous trouverez ci-dessous les différentes catégories et disponibilité prévus pour cette année. Je vous laisse donc choisir et remplir selon les propositions donnés. </strong> </p></font></center>
+
+		<style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+      }
+      body {
+        background: url("https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") center;
+        background-size: cover;
+        min-height: 600px;
+        font-family: "Helvetica Neue", sans-serif;
+      }
+
+.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.tftable tr {background-color:#d4e3e5;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+.tftable tr:hover {background-color:#ffffff;}
+</style>
+
+
+
+
+
+
+
+
+<table class="tftable" border="1">
+<tr><th>Date 1</th>
+<th>Lieu</th><th>Parcours</th><th>Distance</th><th>Montant de l'inscription</th><</tr>
+
+/td><td>1/09/2022 - 1/09/2024</td><td>Italie</td><td>///</td><td>10 à 40 km</td><td>19</tr>
+
+<tr><td>1/09/2022 - 1/09/2024</td><td>France</td><td>///</td><td>10 à 50 km</td><td>15</td></tr>
+
+<tr><td>1/09/2022 - 1/09/2024</td><td>Espagne</td><td>///</td><td>5 à 80 km</td><td>25</td></tr>
+
+<tr><td>1/09/2022 - 1/09/2024</td><td>Russie</td><td>///</td><td>12 à 70 km</td><td>50</td></tr>
+
+<tr><td>1/09/2022 - 1/09/2024</td><td>Allemagne</td><td>///</td><td>20 à 50 km</td><td>50</td></tr>
+
+
+</table>
+
+<br>
+<br>
+<br>
+<br>
+
+     <?php
+     echo include 'footer.php' ;
+     ?>
+
+ </body>
+ </html>
