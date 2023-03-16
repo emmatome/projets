@@ -1,0 +1,150 @@
+
+
+
+
+<html>
+<meta charset=UTF-8>
+
+     <head>
+     	<link rel="stylesheet" href="C:\MAMP\htdocs\webcourses\style css.css">
+         
+<center><img src="logoweb.png" height=150></center>
+
+      <font color="blue">
+      <h1>Formulaire d'inscription</h1>
+      </font>
+    </head>
+
+    
+
+
+    <a href="en_tete.php"></a>
+
+<body rel="body" type="text/css" href="style.css">
+
+<body style="background-color:#1c2b4f">
+
+
+<font face ="arial">
+<font color="white">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</header>
+
+    <form method="post">
+        <fieldset>
+
+
+        <h2><u> Informations personnelles :</u></h2>
+
+            <div id="container">
+                <div id="bloc_1">
+ 
+ 
+                    
+                    <label for="nom">Nom *</label>
+                    <input type="text" name="nom" id="nom" required />
+                    <br>
+                    <br>
+ 
+                    <label for="prenom">Prénom *</label>
+                    <input type="text" name="prenom" id="prenom" required />
+                    <br>
+                    <br>
+
+                    <label for="prenom">Pseudo *</label>
+                    <input type="text" name="prenom" id="prenom" required />
+                    <br>
+                    <br>
+                    
+                    
+                    <label for="mail"><strong><i>E-mail</i></strong> *</label>
+                    <input type="email" name="mail" id="mail" size="30" required  />               
+                    <br>
+                    <br>
+ 
+                    
+                                       
+ 
+                    <label for="mdp"><strong><i>Mot de passe</i></strong> *</label>
+                    <input type="password" name="mdp" id="mdp" required/>
+                    <br>
+                    <br>
+ 
+                    
+                    
+                </div>
+             
+            
+ 
+                <strong><i>Souhaitez-vous recevoir des notifications ? </i></strong>
+                <input type="radio" name="offer" value="oui" id="oui" required />
+                <label for="oui">Oui</label>
+                <input type="radio" name="offer" value="non" id="non" required />
+                <label for="non">Non</label>
+                <br>
+                <br>
+
+                 <h2><u>Courses :</u></h2>
+ 
+            <div id="bloc_4">
+             
+                <p>Inscrivez-vous directement aux prochaine courses et découvrez en avant-première nos évènements ainsi que tous nos conseils pour un parcour en toute sécurité.</p><br>
+ 
+                <input type="radio" name="course" value="oui" id="oui" required />
+                <label for="oui">Oui, je m'inscris</label>
+                <input type="radio" name="course" value="non" id="non" required />
+                <label for="non">Non merci</label>
+                <br>
+ 
+            </div>
+                 
+             
+            
+             
+               
+                <br>
+                <br>
+                <br>
+
+              <strong><i>J'accepte la politique de confidentialité</i></strong>
+                <input type="radio" name="offer" value="oui" id="oui" required />
+                <label for="oui">Oui</label>
+                <input type="radio" name="offer" value="non" id="non" required />
+                <label for="non">Non</label>
+                <br>
+                <br>
+                <br>
+
+                <strong><i>J'accepte les conditions générales d'utilisations</i></strong>
+                <input type="radio" name="offer" value="oui" id="oui" required />
+                <label for="oui">Oui</label>
+                <input type="radio" name="offer" value="non" id="non" required />
+                <label for="non">Non</label>
+                <br>
+ 
+            </div>
+                 
+                <i><p><u> Champs obligatoires *</u> <input type="submit" value="Valider" /> 
+                    <a href="header.php "></p>
+
+ 
+                <p id="mention">Conformement à la loi "informatique et libertés" du 6 juillet 1978 modifiée, vous bénéficiez d'un droit d'accès, le cas échéant de rectification et de supression aux informations qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez vous adressez à : <a href="mailto:evenementiel_sio@sitewebdescourses.fr">evenementiel_sio@sitewebdescourses.fr</a></p></i>
+ 
+        </fieldset>
+    </form>
+</font>
+</font>
+</body>
+</html>
+
+
+
+
+
+     
+
+
+ 
+
