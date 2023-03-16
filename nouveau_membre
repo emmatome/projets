@@ -1,0 +1,136 @@
+<?php
+//Functions
+function Securise(*string)}
+//On regarde si le type de string est un nombre entier (int)
+if (ctype_digit($string)){
+	$string = intvall($string);
+
+}else {
+	//Pour tout les autres types
+	$string = strip_tags($string);
+	$string = addcslashes ($string, ' ');
+
+}
+return $string;
+//Base de donnée
+
+try{
+	$bdd = new PDO('mysql :host=localhost;dbname=webcourses;charset=utf8', 'root', 'pass', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+} catch(Exception $e){
+	echo"Erreur: ".$e;
+}
+
+if(isset($_POST['inscription'])){
+
+	$nom = Securise ($_POST['nom'];
+	$prenom = $_POST ['prenom'];
+	$mdp = $_POST ['mdp'];
+	$mdp2 = $_POST ['mdp2'];
+	$sexe = $_POST ['sexe'];
+	$datenais = date('d/m/y à H:i:s');
+	$adresse = $_POST ['adresse'];
+	$nationalite = $_POST ['nationalite'];
+	$numtel = $_POST ['numero de telephone'];
+
+	
+	}
+
+
+	if(!empty($nom) AND !empty($prenom)  AND !empty ($mdp) AND !empty($mdp2) AND !empty($sexe) AND !empty ($datenais) AND !empty($adresse) AND !empty($nationalite) AND !empty ($numtel)){
+
+		if(filter_var($adresse, FILTER_VALIDATE_EMAIL)){
+
+		if($mdp == $mdp2){
+
+			if($genre == "h" OR  $genre == "f"){
+				if(strlen($name) <= 50){
+
+					$TestEmail = $bdd->query ('SELECT co_nom FROM coureur WHERE co_adresse "'.$adresse. '"');
+					if($TestEmail ->rowCount() < l){
+
+      $bdd->query ('INSERT INTO coureur (co_nom, co_prenom, co_adresse, co_sexe, co_datenais, co_adresse, co_nationalite, co_numtel) VALUES ("'.$nom.'", "'.$prenom.'", "'.$adresse.'", "'.$mdp.'", "'.$sexe.'", "'.$datenais.'", "'.$nationalite.'", "'.$numtel.'")');
+
+
+					}else $return = "Votre adresse email est déjà utilisée.";
+
+				}else $return = "Votre nom dépasse de 50 caractères";
+
+			}else $return = "Le genre est invalide";
+
+		}else $return = "Les deux mots  de passe ne correspondent pas";
+	}else $return = "L'adresse est invalide !";
+
+	}else $return = "Un ou plusieurs champs est manquant.";
+
+}
+// Formulaire de connexion
+if(isset($_POST['login'])){
+	$email = $_POST['adresse'];
+	$mdp = $_POST ['mdp'];
+ if (!empty($adresse) AND !isset($mdp)){
+$VerifUser = $bdd-> query('SELECT co_id FROM coureur WHERE co_email= "'.$email.'" AND mdp ="'.$mdp.'"');
+$UserData = $VerifUser->fetch();
+if($VerifUser->rowCount() == l){
+	$_SESSION['login'] = l; $UserData['nom'];
+	$return = "Vous êtes bien connecté !";
+}else $return = "Les indetifients sont invalides.";
+
+
+ }else $return = "Un ou plusieurs champs manquant."
+}
+?>
+
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<meta charset=UTF-8>
+
+     <head>
+
+     <link rel="stylesheet" href="C:\MAMP\htdocs\webcourses\style css.css">
+         
+
+        <title>Nouveau Membre</title>
+
+<body>
+<!-- Formulaire d'inscription / Connexion -->
+
+	<form action="#" method="POST">
+	<form action="#" method="POST">
+	<?php if (isset($_Post['inscription']) AND isset ($return)) echo $return; ?>
+		<input type="text" name="nom" placeholder="Votre nom">
+		<input type="text" name="prenom" placeholder="Votre prénom">
+		<input type="adresse" name="email" placeholder="Votre adresse e-mail">
+		<input type="password" name="mdp" placeholder="Votre mot de passe">
+		<input type="password" name="mdp2" placeholder="Confirmer votre mot de passe">
+
+		<select name="sexe">
+		<option value="h"> Homme </option>
+		<option value="f"> Femme </option>
+
+		<input type="datenais" name="Date de naissance" placeholder="Votre date de naissance">
+		<input type="nationalite" name="Nationalité" placeholder="Votre nationalité">
+		<input type="numtel" name="Numéro de téléphone" placeholder="Votre numéro de téléphone">
+	</select>
+	<input type="submit" name="inscription" value="M'inscrire">
+</form>
+<hr>
+<form action=""></form>
+
+		<input type="adresse" name="adresse" placeholder="Votre adresse e-mail">
+		<input type="password" name="mdp" placeholder="Votre mot de passe">
+		<input type="submit" name="login" value="Se connecter">
+		</form>
+
+
+
+
+    </head>
+    <a href="en_tete.php">
+
+
+
+ <body background="C:\MAMP\htdocs\webcourses\background.jpg"alt=""/>
+
+   
