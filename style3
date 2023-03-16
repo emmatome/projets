@@ -1,0 +1,11 @@
+.Texte {
+    color:black ;
+       }
+ .Titre {
+     color:black;
+        }
+  .Titre:hover{
+      color:black;
+      font-size
+  }
+
